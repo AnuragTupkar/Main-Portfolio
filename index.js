@@ -44,7 +44,7 @@ gsap.from("#about-text",{
     scrollTrigger:{
         trigger:"#about-page #about-text",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
@@ -55,7 +55,7 @@ gsap.from("#name, #degree, #motive",{
     scrollTrigger:{
         trigger:"#about-page #about-text",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
@@ -66,7 +66,7 @@ gsap.from("#buttons",{
     scrollTrigger:{
         trigger:"#about-page #about-text",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
@@ -78,7 +78,7 @@ gsap.from("#left-photo",{
     scrollTrigger:{
         trigger:"#about-page #about-text",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
@@ -92,8 +92,168 @@ gsap.from("#socail-media-btn img",{
     scrollTrigger:{
         trigger:"#about-page #about-text",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%"
     }
 })
 
+//Portfolio Animation
+
+
+gsap.from("#works-text",{
+    opacity:0,
+    duration:2,
+    scrollTrigger:{
+        trigger:"#my-works #works-text",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#i-portfolio",{
+    duration: 1,
+    y: -20,
+    scale:0,
+    delay:1,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#my-works #works-text",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#personal-text, #personal-para, #work-buttons",{
+    duration: 1,
+    opacity:0,
+    stagger:2,
+    delay:1,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#my-works #works-text",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#techstack",{
+    duration:1,
+    y:200,
+    scale: 0,
+    opacity:0,
+    stagger:2,
+    delay:3.5,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#my-works #works-text",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#tech-stack-container, #techstack-rectangle",{
+    duration:1,
+    y:200,
+    scale: 0,
+    opacity:0,
+    stagger:2,
+    delay:3.5,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#my-works #works-text",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#getintouch-h",{
+    duration:1,
+    opacity:0,
+    scale:0,
+    
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#getintouch",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#getintouch-img",{
+    duration:1,
+    opacity:0,
+    y:-200,
+    delay:1,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#getintouch",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#getintouch-para",{
+    duration:1,
+    opacity:0,
+    x:200,
+    delay:2,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#getintouch",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from(".form-control",{
+    duration:1,
+    opacity:0,
+    x:-200,
+    delay:3,
+    stagger:0.3,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#getintouch",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#send-btn",{
+    duration:1,
+    opacity:0,
+    x:-200,
+    delay:4,
+    
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#getintouch",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})
+
+gsap.from("#socail-media-btn1 img",{
+    duration:1,
+    opacity:0,
+    y:-200,
+    delay:4,
+    stagger:0.3,
+    ease: 'sine.inOut',
+    scrollTrigger:{
+        trigger:"#getintouch",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%"
+    }
+})

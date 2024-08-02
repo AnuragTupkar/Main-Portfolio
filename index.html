@@ -24,16 +24,13 @@
                             <a class="nav-link" href="#hero-page">Home </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#">About Me</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#">My Works</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">About me</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Content</a>
+                            <a class="nav-link" href="#">Get In Touch</a>
                           </li>
                         </ul>
                       </div>
@@ -52,7 +49,7 @@
                               <br>   responsive  <span class="bText">web design.</span> </p>
                               <div id="box"></div>
                         </div>
-                        <div id="main-right"   >
+                        <div id="main-right">
                             <img id="main-photo" src="Images/Anurag.png">
                         </div>
                     </div>
@@ -93,19 +90,63 @@
                             <img id="i-portfolio" src="Images/Portfolio.png">
                         </div>
                         <div id="work-right" class="col-lg-6">
-                            <h4>MY WORKS</h4>
-                            <h1>PERSONAL PORTFOLIO</h1>
-                            <p>Personal Portfolio Responsive <br>
+                            <h4 class="right" id="works-text">MY WORKS</h4>
+                            <h1 class="right" id="personal-text">PERSONAL PORTFOLIO</h1>
+                            <p class="right" id="personal-para">Personal Portfolio Responsive <br>
                               Website, To Showcase The Skills, <br>
                               Accomplishments</p>
-                              <div id="work-buttons" class="row">
-                                <button id="work-button1" class="col-lg-6 btn btn-outline-dark">view</button>
+                              <div id="work-buttons" class="row right">
+                                <button id="work-button1" class="col-lg-6 btn btn-outline-dark"> view</button>
                                 <button id="work-button2" class="col-lg-6 btn btn-outline-dark">code</button>
                               </div>
-                              <h1>TECHSTACK USED</h1>
-                              <img id="tech-image" src="Images/techstack.png">
+                              <h1 class="right" id="techstack">TECHSTACK USED</h1>
+                            
+                              <div id="tech-stack-container" class="row tech-stack-container">
+                                  <img class= "tech-stack" src="Images/html-5.png" alt="">
+                                  <img class= "tech-stack" src="Images/css-3.png" alt="">
+                                  <img class= "tech-stack" src="Images/js.png" alt="">
+                                  <img class= "tech-stack" src="Images/bootstrap.png" alt="">
+                                  <img id="gsap" class= "tech-stack" src="Images/gsap.png" alt="">
+                              </div>
                         </div>
                         <div id="tech-rectangle"></div>
+                        
+                    </div>
+
+                    <!-- GET IN TOUCH -->
+
+                    <div id="getintouch">
+                        <div id="main-content2" class="row">
+                            <div id="main-left2" class=" col-lg-6">
+                              <img  id="getintouch-img" src="Images/getintouch.png">
+                            </div>
+                            <div id="main-right2" class=" col-lg-6">
+                                <h1 id="getintouch-h">GET IN TOUCH</h1>
+                                <p id="getintouch-para">Hello there! If you have any questions, <br>
+                                  collaboration ideas, or just want to say hi, feel <br>
+                                  free to get in touch with me. I'd be thrilled to <br>
+                                  hear from you!</p>
+
+                                  <form>
+                                    <div  class = "form-group">
+                                    <input class="form-control"type="text" placeholder="Your Name">
+                                    <input class="form-control"type="email" placeholder="Your Email">
+                                    <input class="form-control"type="text" placeholder="Your Phone no.">
+                                    <input class="form-control" type="text" placeholder="Your Message">
+                                    </div>
+                                  </form>
+
+                                  <button id="send-btn" class="btn btn-outline-dark">SEND</button>
+                                  <div id="socail-media-btn1" >
+                                    <a href="https://www.linkedin.com/in/anurag-tupkar-840734238/"><img  class="buttons" src="Images/linkedin.png" alt=""></a>
+                                    <a href="https://github.com/AnuragTupkar"><img id="git" class="buttons" src="Images/github.png" alt=""></a>
+                                    <a href="mailto:anuragtupkar168@gmail.com" ><img class="buttons" src="Images/email.png" alt=""></a>
+                                    <a href="https://www.instagram.com/anurag__tupkar/"><img class="buttons" src="Images/instagram.png" alt=""></a>
+                                    <a href="https://twitter.com/Anurag_Tupkar"><img class="buttons" src="Images/twitter.png" alt=""></a>
+                                  </div>
+                            </div>
+
+                        </div>
                     </div>
     </body>
    
@@ -113,3 +154,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="index.js"></script>
 </html>
+

@@ -226,12 +226,17 @@ margin-top: 4vmin;
     margin-top: 10vmin ;
     margin-left: 15vmin;
 }
-#socail-media-btn img:hover{
+
+#socail-media-btn a:hover, #socail-media-btn1 a:hover{
     opacity: 40%;
 }
 
 /* Portfolio */
-
+#my-works{
+    padding-top: 20vmin;
+    padding-bottom: 24vmin;
+    
+}
 
 #i-portfolio{
     
@@ -244,11 +249,164 @@ margin-top: 4vmin;
 #tech-rectangle{
     position: absolute;
     background-color: #B9B6B6;
-    height: 59.5vh;
-    width: 120vh;
+    height: 103vh;
+    width: 60vw;
     right: 0;
+    top: 211%;
+    
 }
 #work-right{
     position: relative;
     z-index: 999;
+   
+}
+.right{
+    margin-left: 6vmin;
+}
+.tech-stack{
+    width: 14vmin;
+    display: inline-block;
+    margin-left: 2vmin;
+}
+#gsap{
+    width: 30vmin;
+}
+
+#works-text{
+    position: absolute;
+    top:-13vmin;
+    left:-80vmin;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 4vmin;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 26vmin;
+    height: 6vmin;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.5vmin;
+    background-color: black;
+}
+
+#personal-text{
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 4.8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1vmin;
+}
+
+#personal-para{
+    margin-top: 3vmin;
+    color: #000;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-family: Montserrat;
+font-size: 4.2vmin;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.3vmin;
+}
+#work-buttons{
+    width: 99vmin;
+    margin-bottom: 2.5vmin;
+   display: inline-block;
+   margin-left: 4vmin ;
+}
+#techstack{
+    color: #FFF;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-family: Montserrat;
+font-size: 5vmin;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1vmin;
+margin-bottom: 4vmin;
+}
+
+#tech-stack-container{
+    background-color: #FFF;
+    padding-top: 1.5vmin;
+    padding-bottom: 1.5vmin;
+    
+}
+
+
+#work-button1{
+    width: 34vmin;
+    margin-left:2vmin;
+}
+#work-button2{
+    width: 34vmin;
+    margin-left: 6vmin;
+}
+#getintouch-h{
+   
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 4vmin;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 40vmin;
+    height: 6vmin;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.5vmin;
+    background-color: black;
+    margin-bottom: 4vmin;
+    
+}
+#main-right2{
+    position: relative;
+    top:-11vmin;
+}
+#getintouch-para{
+    color: #000;
+text-align: justify;
+font-family: Montserrat;
+font-size: 4vmin;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 4.5vmin;
+}
+
+#getintouch-img{
+    padding-top: 8vmin;
+    position: relative;
+    left: 20vmin;
+    width: 60vmin;
+
+}
+#main-right2{
+    margin-top: 20vmin;
+}
+
+.form-control{
+    margin-bottom: 2vmin;
+    border: #F3F1EF;
+    border-bottom: #000 solid 0.1vmin;
+    width: 86vmin;
+    border-radius: 0%;
+    background-color: #F3F1EF;
+    
+}
+#send-btn{
+    margin-top: 5vmin;
+    width: 25vmin;
+    margin-bottom: 4vmin;
+}
+#socail-media-btn1 img{
+    margin-right: 1vmin;
+}
+
+@media screen {
+    
 }
